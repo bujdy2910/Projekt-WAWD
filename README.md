@@ -1,3 +1,0 @@
-# Projekt-WAWD
-
-novy riadok
