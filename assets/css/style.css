@@ -4,7 +4,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    color: #9d9892;
+    color: #000000;
     line-height: 30px;
     text-align: center;
 }
@@ -12,7 +12,7 @@ body {
 strong { font-weight: 600; }
 
 a, a:hover, a:focus {
-	color: #d05a4e;
+	color: #000000;
 	text-decoration: none;
     -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
@@ -49,6 +49,14 @@ img { max-width: 100%; }
 .top-content .description {
 	margin: 20px 0 10px 0;
 	color: #fff;
+}
+.navbar
+{
+    background-color: #0085ff;
+  }
+
+.navbar-toggle .icon-bar {
+    background-color: #000000;
 }
 
 .top-content .description a { color: #fff; border-bottom: 2px dotted #fff; }

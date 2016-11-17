@@ -13,6 +13,7 @@ if($_POST) {
     $clientEmail = addslashes(trim($_POST['email']));
     $subject = addslashes(trim($_POST['subject']));
     $message = addslashes(trim($_POST['message']));
+    $antispam = addslashes(trim($_POST['antispam']));
 
     $array = array('emailMessage' => '', 'subjectMessage' => '', 'messageMessage' => '', 'antispamMessage' => '');
 
@@ -25,12 +26,13 @@ if($_POST) {
     if($message == '') {
         $array['messageMessage'] = 'Empty message!';
     }
-
+    if($antispam != '12') {
+    	$array['antispamMessage'] = 'Wrong antispam answer!';
     }
-    if(isEmail($clientEmail) && $subject != '' && $message != '') {
+    if(isEmail($clientEmail) && $subject != '' && $message != '' && $antispam == '12') {
         // Send email
 		$headers = "From: " . $clientEmail . " <" . $clientEmail . ">" . "\r\n" . "Reply-To: " . $clientEmail;
-		mail($emailTo, $subject . " ", $message, $headers);
+		mail($emailTo, $subject . " (bootstrap contact form tutorial)", $message, $headers);
     }
 
     echo json_encode($array);
