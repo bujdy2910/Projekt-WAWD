@@ -39,7 +39,7 @@
   			<div class="collapse navbar-collapse" id="navbar-collapse">
   				
   			<ul class="nav navbar-nav navbar-right">
-					<li><a href="#feedback" style="color: black">AKO NÁS NÁJDEŠ</a> 
+					<li><a href="#feedback" style="color: black">KDE NÁS NÁJDEŠ</a> 
   					<li><a href="#gallery" style="color: black">PROGRAM</a> 
   					<li><a href="#features" style="color: black">CENY LÍSTKOV</a> 
   					<li><a href="#faq" style="color: black">O UNIVERZITE</a> 
@@ -62,18 +62,18 @@
     <li data-target="#carousel1" data-slide-to="2"></li>
       </ol>
  <div class="carousel-inner" role="listbox">
-    <div class="item active"><img src="http://www.citi.io/wp-content/uploads/2015/08/1168-00-06.jpg" alt="First slide image" class="center-block">
+    <div class="item active"><img src="assets/img/slide1.jpg" alt="First slide image" class="center-block">
       <div class="carousel-caption">
 		  <h2><font color="white">Festival pre všetkých</font></h2>
       </div>
     </div>
-    <div class="item"><img src="http://hddesktopwallpapers.in/wp-content/uploads/2015/07/music-wallpaper-rock.jpg" alt="Second slide image" class="center-block">
+    <div class="item"><img src="assets/img/slide2.jpg" alt="Second slide image" class="center-block">
       <div class="carousel-caption">
 		  <h2><font color="white">Pre tvrdých rockerov</font></h2>
         
       </div>
     </div>
-    <div class="item"><img src="http://www.sz0931.com/data/out/64/52729595-party-wallpaper.jpg" alt="Third slide image" class="center-block">
+    <div class="item"><img src="assets/img/slide3.jpg" alt="Third slide image" class="center-block">
       <div class="carousel-caption">
 		  <h2><font color="white">Aj pre fanúšikov elektronickej hudby</font></h2>
       </div>
