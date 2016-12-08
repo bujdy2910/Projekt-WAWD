@@ -40,9 +40,9 @@
   				
   			<ul class="nav navbar-nav navbar-right">
 					<li><a href="#feedback" style="color: black">KDE NÁS NÁJDEŠ</a> 
-  					<li><a href="#gallery" style="color: black">PROGRAM</a> 
-  					<li><a href="#features" style="color: black">CENY LÍSTKOV</a> 
-  					<li><a href="#faq" style="color: black">O UNIVERZITE</a> 
+  					<li><a href="#program" style="color: black">PROGRAM</a> 
+  					<li><a href="#ceny" style="color: black">CENY LÍSTKOV</a> 
+  					<li><a href="#uni" style="color: black">O UNIVERZITE</a> 
   					<li><a href="#contact" style="color: black">KONTAKT</a>
   					<li><a href="https://www.facebook.com/eubacik/"><img src="http://aspyra.com/wp-content/uploads/facebook_icon-20x20.png"</a>
   					 
@@ -50,7 +50,7 @@
   			</div>
   		</div><!-- End Container-->
   	</nav><!-- End navbar -->
-  	
+  	 
     	<!-- jumbotron-->
 <div class="jumbotron">
 <script src="js/jquery-1.11.3.min.js"></script>
@@ -112,7 +112,126 @@
   </div>
         
         <!--Kontakt-->
+        <hr>
+     <!-- Program -->
+	<div class="container">
+		<section>
+			<div class="page-header" id="program">
+  				<h2>Program</h2>
+  			</div><!-- End Page Header -->
 
+  			<div class="row">
+  				<div class="col-sm-8">
+  					<h3>Slovenká hudba</h3>
+  					<p>O program počas celého dňa sa budú starať tvoji obľúbení slovenskí interpréti. Kapely ako Horkýže Slíže, Iné Kafe, Polemic ti snáď už ani nemusíme predstavovať. Bavíme sa až do rána bieleho!</p>
+  				</div>
+  				<div class="col-sm-4">
+  					<img src="assets/img/horkyze.jpg" class="img-responsive" alt="image">
+  				</div>
+  			</div><!-- End row -->
+  			<div class="row">
+  				<div class="col-sm-8">
+  					<h3>FS Ekonóm</h3>
+  					<p>Poobedný program nám okorení univerzitný folklórny súbor- FS Ekonóm. Zabav sa na ľudovú nôtu na program študentov našej školy. Ak chceš, môžes sa zapísať a stať sa naším parťákom!</p>
+  				</div>
+  				<div class="col-sm-4">
+  					<img src="assets/img/ekonom.jpg" class="img-responsive" alt="image">
+  				</div>
+  			</div>
+  			<div class="row">
+  				<div class="col-sm-8">
+  					<h3>Diskusie</h3>
+  					<p>Počas celého konania festivalu sme si pripravili zaujímavé prednášky so zaujímavými osobnosťami-  s profesormi, so študentmi, s úspešnými absolventmi. Príd sa informovať.</p>
+  				</div>
+  				<div class="col-sm-4">
+  					<img src="assets/img/diskusia.jpg" class="img-responsive" alt="image">
+  				</div>
+  			</div>
+
+
+  					</section>
+	</div><!-- End Container -->   
+        
+        
+        <hr>
+        
+<!-- ceny -->
+	<div class="container">
+		<section>
+			<div class="page-header" id="ceny">
+  				<h2>Ceny</h2>
+  			</div><!-- End Page Header -->
+
+
+  			<div class="row">
+  				<div class="col-sm-4">
+  					<div class="panel panel-default text-center">
+  						<div class="panel-body">
+  							<!--<span class="glyphicon glyphicon-ok"></span>-->
+  							<span></span><h3> <img src="assets/img/dva.png"></h3></span>
+  							<h4>Záujemca</h4>
+  							<p>Ak nevieš čo po strednej, prídi si vyskúšať život na našej škole.</p>
+  						</div>
+  					</div>
+  				</div>
+
+  				<div class="col-sm-4">
+  					<div class="panel panel-default text-center">
+  						<div class="panel-body">
+  							<span></span><h3> <img src="assets/img/sest.png"></h3></span>
+  							<h4>Študent</h4>
+  							<p>Študenti našej univerzity sa bavia za lacno!</p>
+  						</div>
+  					</div>
+  				</div>
+
+  				<div class="col-sm-4">
+  					<div class="panel panel-default text-center">
+  						<div class="panel-body">
+  							<span></span><h3> <img src="assets/img/desat.png"></h3></span>
+  							<h4>Návštevník</h4>
+  							<p>Prídi sa zabaviť aj keď nie si náš študent.</p>
+  						</div>
+  					</div>
+  				</div>
+  			</div><!-- end row -->
+
+		</section>
+	</div><!-- End Container -->
+       <hr>
+        	<!-- O univerzite-->
+  	<div class="container">
+  		<section>
+  			<div class="page-header" id="uni">
+  				<h2>O univerzite</h2>
+  			</div>
+
+  			<div class="row">
+  				<div class="col-md-4">
+  					<blockquote>
+  						<p>Ekonomická univerzita v Bratislave predstavuje v súčasnosti najväčšiu univerzitu v SR, ktorá zabezpečuje na všetkých stupňoch štúdia komplexné a ucelené vzdelávanie v ekonomických a manažérskych študijných programoch. </p>
+						<a href="http://www.euba.sk"><button class="btn">Zisti viac</button></a>
+  					</blockquote>
+  				</div>
+  				<div class="col-md-4">
+  					<blockquote>
+  						<p>Slovenských zamestnávaťeľov aj tento rok najviac zaujímali životopisy absolventov Ekonomickej univerzity. Navyše absolventi až 5 naších fakúlt sa umietnili medzi najžiadajnejšími medzi zamestnávateľmi. Pridaj sa k úspšeným! </p>
+  						<a href="http://firma.profesia.sk/rebricek-vysokych-skol-slovensku-ekonomov-informatikov-technikov-vyhladavaju-zamestnavatelia/"><button class="btn">Zisti viac</button></a>
+  					</blockquote>
+  				</div>
+  				<div class="col-md-4">
+  					<blockquote>
+  						<p>Poskytujeme štúdium v 67 študijných programoch na 3 stupňoch štúdia. Prostredníctvom študentských mobilít získate možnosť stráviť časť štúdia na prestížnych partnerských univerzitách v zahraničí.</p>
+  						<a href="http://euba.sk/uchadzaci-o-studium/podmienky-prijatia-a-prijimacie-konanie"><button class="btn">Zisti viac</button></a>
+  					</blockquote>
+  				</div>
+  			</div><!-- End row -->
+  		</section>
+  	</div><!--End Container-->
+      
+      
+       <hr>
+       
         <!-- CSS -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600">
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -185,7 +304,16 @@
         <!--[if lt IE 10]>
             <script src="assets/js/placeholder.js"></script>
         <![endif]-->
+      <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-88257138-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
     </body>
 
 </html>
